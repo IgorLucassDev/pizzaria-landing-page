@@ -7,9 +7,11 @@ let myNav = document.querySelector('.nav-itens')
 
 
 function menuToggle(){  
+    myNav.style.display = 'block'
     myNav.style.right = '0'
 }
 
 function closeMenu(){
     myNav.style.right = '-300px'
+    myNav.style.display = 'none'
 }

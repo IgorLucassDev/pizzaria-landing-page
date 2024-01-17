@@ -131,22 +131,21 @@ header{
 }
 
 @media only screen and (max-width:718px){
-    .close-btn{
-        display: block;
-    }
-    .header-menu-img{
-        display: block;
-    }
     .nav-itens{
         padding: 10px;
-        right: -300px;
+        right: 0;
         top: 0;
         height: 800px;
         width: 220px;
         background-color: #1D1D1D;
         position: absolute;
         flex-direction: column;
-        display: none;
+    }
+    .close-btn{
+        display: block;
+    }
+    .header-menu-img{
+        display: block;
     }
     .nav-itens li{
         margin: 30px;
