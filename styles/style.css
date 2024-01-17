@@ -30,6 +30,26 @@ header{
     
 }
 
+.menu-itens{
+    display: flex;
+    align-items: center;
+}
+
+.nav-itens{
+    align-items: center;
+}
+
+.header-menu-img{
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+.header-menu-img > img{
+    filter: invert();
+    width: 32px;
+}
+
 .menu-itens>ul{
     display: flex;
 }
@@ -104,5 +124,32 @@ header{
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
+}
+
+.close-btn{
+    display: none;
+}
+
+@media only screen and (max-width:718px){
+    .close-btn{
+        display: block;
+    }
+    .header-menu-img{
+        display: block;
+    }
+    .nav-itens{
+        padding: 10px;
+        right: -300px;
+        top: 0;
+        height: 800px;
+        width: 220px;
+        background-color: #1D1D1D;
+        position: absolute;
+        flex-direction: column;
+        display: none;
+    }
+    .nav-itens li{
+        margin: 30px;
+    }
 }
 
