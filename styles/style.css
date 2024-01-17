@@ -131,6 +131,9 @@ header{
 }
 
 @media only screen and (max-width:718px){
+    .itens{
+        display: none;
+    }
     .nav-itens{
         padding: 10px;
         right: 0;
