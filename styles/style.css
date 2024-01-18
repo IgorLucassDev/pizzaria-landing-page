@@ -65,7 +65,7 @@ body{
     margin: 10px;
 }
 
-.btn-container > form > input{
+.btn-container form input{
     background-color: #FFBD3E;
     border-radius: 20px;
     padding: 15px 20px;
@@ -73,6 +73,33 @@ body{
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
+}
+
+.view-more-section form input{
+    cursor: pointer;
+    border: solid 2px #FFBD3E;
+    background-color: #FFBD3E;
+    border-radius: 20px;
+    padding: 12px;
+    font-weight: bold;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.141);
+}
+
+.view-more-section form{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.credits-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.credits-section a{
+    color: #1D1D1D;
 }
 
 
